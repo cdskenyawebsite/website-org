@@ -1,0 +1,8 @@
+Colors from logo: 
+Green: #029731 or RGB (2, 151, 49)
+
+Dark Green: #246439 or RGB (36, 100, 57)
+
+Black
+
+White

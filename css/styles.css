@@ -2438,18 +2438,18 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #029731;
+  border-color: #029731;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #246439;
+  border-color: #246439;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #246439;
+  border-color: #246439;
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -4313,6 +4313,22 @@ input[type=button].btn-block {
   color: #fff;
 }
 
+.about-card { 
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  max-width: 25%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid #029731;
+  border-radius: 0.25rem;
+  justify-content: space-evenly;
+  margin: 1rem;
+  padding: 5px;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -4321,7 +4337,7 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 0px solid black;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -5042,8 +5058,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #029731;
+  border-color: #029731;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -5824,6 +5840,7 @@ a.close.disabled {
 }
 
 .carousel-item {
+  border: none;
   position: relative;
   display: none;
   float: left;
@@ -6073,7 +6090,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #FFFFFF !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6085,6 +6102,11 @@ button.bg-primary:focus {
 .bg-secondary {
   background-color: #6c757d !important;
 }
+
+.bg-tertiary {
+  background-color: rgb(2, 151, 49, 0.25)  !important;
+}
+
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -9775,7 +9797,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #029731 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9986,7 +10008,12 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #029731;
+}
+
+hr.section-divider {
+  border-width: 0.2rem;
+  border-color: #029731;
 }
 
 hr.light {
@@ -10007,7 +10034,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
@@ -10028,10 +10055,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #029731;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #029731 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10123,7 +10150,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(2, 151, 49, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
