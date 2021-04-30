@@ -60,4 +60,7 @@
     }
   });
 
+  const template = document.getElementById('mainNavBar');
+  document.body.appendChild(template.content);
+
 })(jQuery); // End of use strict
