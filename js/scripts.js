@@ -3,11 +3,11 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
     */
-    (function($) {
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -20,29 +20,49 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+  // Removed collapsing navbar because I couldn't get it to work as a dynamically loading 
+  // navbar across multiple pages. Kept the code here in case we want to use it again. 
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 75
-  });
+  // Closes responsive menu when a scroll trigger link is clicked
+  // $('.js-scroll-trigger').click(function () {
+  //   $('.navbar-collapse').collapse('hide');
+  // });
+
+  // Activate scrollspy to add active class to navbar items on scroll    
+  // $('body').scrollspy({
+  //   target: '#mainNav',
+  //   offset: 75
+  // });
+
 
   // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-scrolled");
-    } else {
-      $("#mainNav").removeClass("navbar-scrolled");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
+  // var navbarCollapse = function () {
+  //   if ($("#mainNav").offset().top > 100) {
+  //     $("#mainNav").addClass("navbar-scrolled");
+  //   } else {
+  //     $("#mainNav").removeClass("navbar-scrolled");
+  //   }
+  // };
+
+  // Collapse now if page is not at top  
+    //navbarCollapse();  
+
+  // var navbarCollapse; 
+  // $(document).ready (function () {    
+  //     navbarCollapse = function () { 
+  //     if ($("#mainNav").offset().top > 100) {
+  //       $("#mainNav").addClass("navbar-scrolled");
+  //     } else {
+  //       $("#mainNav").removeClass("navbar-scrolled");
+  //     }
+  //   }
+
+  //   $(window).scroll(navbarCollapse);
+  // });
+
+
   // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+  //$(window).scroll(navbarCollapse);
 
   // Magnific popup calls
   $('#portfolio').magnificPopup({
@@ -60,7 +80,6 @@
     }
   });
 
-  const template = document.getElementById('mainNavBar');
-  document.body.appendChild(template.content);
+
 
 })(jQuery); // End of use strict
