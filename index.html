@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>CDS Kenya</title>
+
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -20,37 +28,31 @@
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">CDS Kenya</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="nav-placeholder"></div>
+
     <!-- Masthead-->
     <header class="masthead">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
-                    <h1 class="text-uppercase text-white font-weight-bold">Community Development and Sustainability
+                    <h1 class="text-uppercase font-weight-bold">Community Development and Sustainability
                         Organization (CDS)</h1>
-                    <hr class="divider my-4" />
+                    <hr class="divider my-4 divider-green" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white font-weight-light mb-5">Strengthening and nurturing communities to promote
+                    <p class="mb-5">Strengthening and nurturing communities to promote
                         partnerships and self-sustainability</p>
                     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn More</a>
                 </div>
@@ -63,7 +65,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h2 class="mt-0">About Us</h2>
-                    <hr class="divider my-4" />
+                    <hr class="divider my-4 divider-green" />
                     <p class="mb-4">Community Development and Sustainability Organization (CDS) is concerned with good
                         governance and advocacy. CDS represents the voice and proactive action of communities in five
                         counties as potential engines of the socio-economic growth and national democracy in respective
@@ -106,75 +108,76 @@
             </div>
         </div>
     </section>
-    <!-- Portfolio Our Work-->
-    <section class="page-section bg-primary" id="our-work">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="text-center">
-                    <h2 class="mt-0">Our Work</h2>
-                    <hr class="divider my-4" />
-                    <div id="portfolio">
-                        <div class="container-fluid p-0">
-                            <div class="row no-gutters">
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-1.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-1.jpg" alt="" />
-                                        <div class="portfolio-box-caption">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">Coffee stems under our agriculture program</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-2.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-2.jpg" alt="" />
-                                        <div class="portfolio-box-caption">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">Environment Project Seedlings</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-3.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-3.jpg" alt="" />
-                                        <div class="portfolio-box-caption">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">COVID-19 Training</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-4.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-4.jpg" alt="" />
-                                        <div class="portfolio-box-caption">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">Deforestation in Kenya -Uganda border Mt.Elgon river Lwakhakha</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-5.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-5.jpg" alt="" />
-                                        <div class="portfolio-box-caption">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">Drilling of water project</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-6.jpg">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-6.jpg" alt="" />
-                                        <div class="portfolio-box-caption p-3">
-                                            <div class="project-category text-white-50">Our Work</div>
-                                            <div class="project-name">Water spring protection</div>
-                                        </div>
-                                    </a>
-                                </div>
+    <!-- Our Work-->
+    <section class="page-section bg-primary" id="ourWork">
+        <div class="container"></div>
+        <div class="row justify-content-center">
+            <div class="text-center">
+                <h2 class="mt-0">Our Work</h2>
+                <hr class="divider my-4 divider-green" />
+                <div id="portfolio">
+                    <div class="container-fluid p-0">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-1.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-1.jpg" alt="" />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">Coffee stems under our agriculture program</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-2.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-2.jpg" alt="" />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">Environment Project Seedlings</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-3.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-3.jpg" alt="" />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">COVID-19 Training</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-4.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-4.jpg" alt="" />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">Deforestation in Kenya -Uganda border Mt.Elgon river
+                                            Lwakhakha</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-5.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-5.jpg" alt="" />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">Drilling of water project</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="assets/img/portfolio/fullsize/OW-6.jpg">
+                                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/OW-6.jpg" alt="" />
+                                    <div class="portfolio-box-caption p-3">
+                                        <div class="project-category text-white-50">Our Work</div>
+                                        <div class="project-name">Water spring protection</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- Call to action-->
     <section class="page-section bg-dark text-white">
@@ -185,16 +188,15 @@
                 Now!</a>
         </div>
     </section>
-    <!-- Portfolio BOD-->
-    <div id="portfolio">
+    <!-- Our Team-->
+    <div id="ourTeam">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/BOD-1.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/BOD-1.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Board of Directors</div>
-                            <div class="project-name">Develyne Jepkwemoi
+                            <div class="contact-name">Develyne Jepkwemoi
                                 <br />
                                 Board of Director -incharge of Women and education
                             </div>
@@ -205,8 +207,7 @@
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/BOD-2.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/BOD-2.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Board of Directors</div>
-                            <div class="project-name">Justine Ikwara
+                            <div class="contact-name">Justine Ikwara
                                 <br />
                                 Chair of the Board of Directors .
                                 He has experience on education teaching and mentorship
@@ -218,8 +219,7 @@
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/BOD-3.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/BOD-3.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Board of Directors</div>
-                            <div class="project-name">Alice Farina
+                            <div class="contact-name">Alice Farina
                                 <br />
                                 Board of Director member + interest in children and women rights and empowerment .
                                 +peace and security researcher +Fundraiser expert
@@ -231,8 +231,7 @@
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/BOD-4.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/BOD-4.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Board of Directors</div>
-                            <div class="project-name">Mr. Bramuel Kundu Wamasabu
+                            <div class="contact-name">Mr. Bramuel Kundu Wamasabu
                                 <br />
                                 Board of Director in charge of Peace and security
                             </div>
@@ -243,8 +242,7 @@
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/BOD-5.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/BOD-5.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Board of Directors</div>
-                            <div class="project-name">Benard Chemos Cheptai
+                            <div class="contact-name">Benard Chemos Cheptai
                                 <br />
                                 Member of Directors incharge on logistics
                             </div>
@@ -263,90 +261,79 @@
                 Now!</a>
         </div>
     </section>
-    <!-- Portfolio Team-->
-    <div id="portfolio">
+    <!-- Team -->
+    <div id="team">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/team-1.jpg">
+                    <div class="portfolio-box" href="assets/img/portfolio/fullsize/team-1.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/team-1.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">
-                                Team Members
-                            </div>
-                            <div class="project-name">Emmanuel Were
+                            <div class="contact-name">Emmanuel Were
                                 <br />
                                 Programs Officer
                                 <br />
-                                email. Emmanuelwkhaemba@gmail.com and mobile:0720235978
+                                Email: <a href="mailto:Emmanuelwkhaemba@gmail.com">Emmanuelwkhaemba@gmail.com</a><br>
+                                Phone: 0720235978
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/team-2.jpg">
+                    <div class="portfolio-box" href="assets/img/portfolio/fullsize/team-2.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/team-2.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">
-                                Team Members
-                            </div>
-                            <div class="project-name">Patrick Chestit
+                            <div class="contact-name">Patrick Chestit
                                 <br />
                                 CDA-Community Development Advisor
                                 <br />
-                                Mobile:0715457827 and Email:patrickbarasa@yahoo.com
+                                Email: <a href="patrickbarasa@yahoo.com">patrickbarasa@yahoo.com</a> <br>
+                                Phone: 0715457827
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/team-3.jpg">
+                    <div class="portfolio-box" href="assets/img/portfolio/fullsize/team-3.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/team-3.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">
-                                Team Members
-                            </div>
-                            <div class="project-name">Peter Chem
+                            <div class="contact-name">Peter Chem
                                 <br />
-                                Founder /Executive Director
+                                Founder / Executive Director
                                 <br />
-                                Communitydsustainable@yahoo.com/pchem2007@yahoo.com and mobile:+254720744827
+                                Email: <a href="director@cdskenya.org">director@cdskenya.org</a><br>
+                                Phone: +254720744827
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/team-4.jpg">
+                    <div class="portfolio-box" href="assets/img/portfolio/fullsize/team-4.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/team-4.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">
-                                Team Members
-                            </div>
-                            <div class="project-name">Mercy Sore
+                            <div class="contact-name">Mercy Sore
                                 <br />
                                 Programs Coordinator
                                 <br />
-                                Email:mercysore00@gmail.com and mobile :+254727782959
+                                Email: <a href="mercysore00@gmail.com">mercysore00@gmail.com</a> <br>
+                                Phone: +254727782959
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/team-5.jpg">
+                    <div class="portfolio-box" href="assets/img/portfolio/fullsize/team-5.jpg">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/team-5.jpg" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">
-                                Team Members
-                            </div>
-                            <div class="project-name">
+                            <div class="contact-name">
                                 Victorine Okanya
                                 <br />
                                 Office Admin
                                 <br />
-                                Number :+254 757 450943
+                                Phone: +254 757 450943
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -360,7 +347,7 @@
                 Now!</a>
         </div>
     </section>
-    <!-- Portfolio Volunteers-->
+    <!-- Volunteers-->
     <div id="portfolio">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
@@ -441,15 +428,18 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">Let's Get In Touch!</h2>
-                    <hr class="divider my-4" />
-                    <p class="text-muted mb-5">For some, volunteering offers the chance to give back to the community or
-                        make a difference to the people around them. For others, it provides an opportunity to develop
-                        new skills or build on existing experience and knowledge. Regardless of why you do it, we
-                        welcome your time, effort, and skills in furthering our aim, mission, and goal.</p>
+                    <h2 class="mt-0">Contact Us</h2>
+                    <hr class="divider my-4 divider-green" />
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class="fas fa-map-marker-alt fa-3x mb-3 text-muted"></i>
+                    <div>CDS Offices-Opp-Cheptais<br>
+                        Catholic Church Kapkoto Road<br>
+                        150 Metres from Bus Stage<br>
+                        P.O BOX 27-50201-Cheptais, Mt. Elgon Kenya</div>
+                </div>
                 <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                     <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
                     <div>+254 (0)720-744 827</div>
@@ -458,6 +448,8 @@
                     <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                     <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
 
+                    <a class="d-block" href="mailto:info@cdskenya.org">info@cdskenya.org</a>
+                    <a class="d-block" href="mailto:director@cdskenya.org">director@cdskenya.org</a>
                     <a class="d-block" href="mailto:communitydsustainable@yahoo.com">communitydsustainable@yahoo.com</a>
                 </div>
             </div>
@@ -470,7 +462,7 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
