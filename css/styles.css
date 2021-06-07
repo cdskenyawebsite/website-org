@@ -10235,6 +10235,13 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.social-media-logo-contact { 
+  width: 85px;
+  height: 85px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .social-media-logo-navbar { 
   width: 35px;
   height: 35px;

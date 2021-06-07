@@ -60,7 +60,7 @@
                 <div class="col-lg-10 align-self-end">
                     <h1 class="text-uppercase font-weight-bold">Contact Us</h1>
                     <hr class="divider my-4 divider-green" />
-                </div> -->
+                </div>
                 <!-- this div is necessary to vertically align the text in the center -->
                 <div class="col-lg-8 align-self-baseline"> 
                     <p class="mb-5"></p>
@@ -82,22 +82,38 @@
                         Off-Cheptais-Tulienge-Lwakhakha Road<br>
                         200m from Cheptais Sub County Hospital<br>
                         P.O BOX 27-50201-Cheptais, Mt. Elgon Kenya
-                    </div>
+                    </div>                    
                 </div>
                 <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                     <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                    <div>+254 (0)720-744 827</div>
-                </div>
+                    <div>+254 (0)720-744 827</div>                    
+                </div>                
                 <div class="col-lg-4 mr-auto text-center">
                     <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                     <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                    <a class="d-block" href="mailto:director@cdskenya.org">director@cdskenya.org</a>
-                </div>
+                    <a class="d-block" href="mailto:director@cdskenya.org">director@cdskenya.org</a>                    
+                </div>                
             </div>
-        </div>
+    </section>
+    <section class="page-section bg-green text-light" id="contact">
+        <div class="row">
+            <div class="text-center mb-5 px-3">
+                <h2>Connect with us on social media!</h2>
+            </div>
+            <div class="text-center">
+                <a href="https://www.facebook.com/realcdskenya/" target="_blank"><img class="social-media-logo-contact" src="assets\img\social_media\f_logo_RGB-Blue_58.png" /></a>
+                <a href="https://www.instagram.com/realcdskenya/" target="_blank"><img class="social-media-logo-contact" src="assets\img\social_media\Instagram_Glyph_Gradient_RGB.png" /></a>
+                <a href="https://twitter.com/realcdskenya" target="_blank"><img class="social-media-logo-contact" src="assets\img\social_media\twitter_social_icons_circle_blue.png" /></a> 
+            </div>
+            <!-- <div class="col-md-4 text-center">
+                
+            </div>
+            <div class="col-md-4 text-center">
+                
+            </div>                             -->
+        </div>=        
     </section>
 
-    <hr class="divider-md my-4 divider-green" />
     <!--Section: Contact v.2-->
     <section class="mt-5">
         <div class="contact-form col-md-7 mx-auto mb-5">
@@ -138,6 +154,9 @@
                             <div class="md-form mb-0">
                                 <input type="text" id="subject" name="subject" class="form-control">
                                 <label for="subject" class="">Subject</label>
+
+                                <!-- This sets the subject line of the notification email sent by Formspree -->
+                                <input type="hidden" name="_subject" value="CDS Kenya Contact Form" />
                             </div>
                         </div>
                     </div>
