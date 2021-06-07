@@ -6,3 +6,5 @@ Dark Green: #246439 or RGB (36, 100, 57)
 Black
 
 White
+
+Silver (for borders)
