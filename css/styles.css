@@ -6183,14 +6183,6 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
-.bg-dark-green { 
-  background-color: #246439 !important;
-}
-
-.bg-green { 
-  background-color: #029731 !important;
-}
-
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -10030,10 +10022,6 @@ html {
 
 hr.divider {
   max-width: 3.25rem;
-  border-width: 0.2rem;
-}
-hr.divider-md {
-  max-width: 50%;
   border-width: 0.2rem;
 }
 hr.divider-green { 
