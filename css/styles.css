@@ -10082,7 +10082,7 @@ hr.light {
   font-weight: 700;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #000000;
+  color: #000;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -10140,6 +10140,13 @@ header.masthead {
 
 #index-masthead { 
   background: linear-gradient(to bottom, rgba(191, 206, 195, 0.5) 0%, rgba(191, 206, 195, 0.8) 100%), url("../assets/img/bg-masthead.jpg");  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#usa-masthead { 
+  background: linear-gradient(to bottom, rgba(191, 206, 195, 0.5) 0%, rgba(191, 206, 195, 0.8) 100%), url("../assets/img/usa/usa_masthead.jpg");  
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

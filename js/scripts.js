@@ -34,35 +34,39 @@
     offset: 75
   });
 
+  // Daman doesn't like the effect where the navbar is transparent until you 
+  // scroll and then it becomes white. But I think the following commented out 
+  // code may be helpful in hiding auto-hiding the dropdown on a mobile device
+  // so I've kept it here until we are ready to address that.
 
   // Collapse Navbar
-  var navbarCollapse = function () {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-scrolled");
-    } else {
-      $("#mainNav").removeClass("navbar-scrolled");
-    }
-  };
+//   var navbarCollapse = function () {
+//     if ($("#mainNav").offset().top > 100) {
+//       $("#mainNav").addClass("navbar-scrolled");
+//     } else {
+//       $("#mainNav").removeClass("navbar-scrolled");
+//     }
+//   };
 
-  // Collapse now if page is not at top  
-  navbarCollapse();  
+//  // Collapse now if page is not at top  
+//   navbarCollapse();  
 
-  // var navbarCollapse; 
-  $(document).ready (function () {    
-      navbarCollapse = function () { 
-      if ($("#mainNav").offset().top > 100) {
-        $("#mainNav").addClass("navbar-scrolled");
-      } else {
-        $("#mainNav").removeClass("navbar-scrolled");
-      }
-    }
+//   var navbarCollapse; 
+//   $(document).ready (function () {    
+//       navbarCollapse = function () { 
+//       if ($("#mainNav").offset().top > 100) {
+//         $("#mainNav").addClass("navbar-scrolled");
+//       } else {
+//         $("#mainNav").removeClass("navbar-scrolled");
+//       }
+//     }
 
-    $(window).scroll(navbarCollapse);
-  });
+//     $(window).scroll(navbarCollapse);
+//   });
 
 
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+//   // Collapse the navbar when page is scrolled
+//   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
   $('#portfolio').magnificPopup({
