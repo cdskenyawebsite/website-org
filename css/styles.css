@@ -4320,8 +4320,7 @@ input[type=button].btn-block {
   position: relative;
   display: flex;
   flex-direction: row;
-  min-width: 0;
-  max-width: 25%;
+  max-width: 85%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
